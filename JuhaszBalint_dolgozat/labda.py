@@ -18,7 +18,7 @@ csomagolas = (d*Pi*mennyiseg)*2+masni
 
 #print (f"{csomagolas:.3f} hosszúságú szalag kell a csomagoláshoz")
 
-if csomagolas<szalag:
+if csomagolas<=szalag:
     print ("Elégséges szalagod van a csomagolás elvégzéséhez")
 else:
     print (f"Nem elégséges! Valahonna szalagot kell még szerezned!")

@@ -16,7 +16,7 @@ masni = 60
 Pi = float(3.14)
 csomagolas = (d*Pi*mennyiseg)*2+masni
 
-print (f"{csomagolas:.3f} hosszúságú szalag kell a csomagoláshoz")
+#print (f"{csomagolas:.3f} hosszúságú szalag kell a csomagoláshoz")
 
 if csomagolas<szalag:
     print ("Elégséges szalagod van a csomagolás elvégzéséhez")
